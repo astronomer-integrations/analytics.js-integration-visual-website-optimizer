@@ -4,7 +4,7 @@ var Analytics = require('@segment/analytics.js-core').constructor;
 var integration = require('@segment/analytics.js-integration');
 var sandbox = require('@segment/clear-env');
 var tester = require('@segment/analytics.js-integration-tester');
-var tick = require('next-tick');
+var tick = require('browser-next-tick');
 var VWO = require('../lib/');
 
 describe('Visual Website Optimizer', function() {
